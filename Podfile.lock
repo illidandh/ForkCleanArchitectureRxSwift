@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Domain (0.1.0):
+    - RxSwift
+  - ListPost (0.1.0):
+    - Domain
+    - RxCocoa
+    - RxSwift
+  - NetworkPlatform (0.1.0):
+    - Alamofire
+    - Domain
+    - RxAlamofire
+    - RxSwift
+  - QueryKit (0.14.1)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Domain (from `Modules/Domain`)
+  - ListPost (from `Modules/ListPost`)
+  - NetworkPlatform (from `Modules/NetworkPlatform`)
+  - QueryKit
+  - RxAlamofire
+  - RxCocoa (~> 6.5.0)
+  - RxSwift (~> 6.5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - QueryKit
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Domain:
+    :path: Modules/Domain
+  ListPost:
+    :path: Modules/ListPost
+  NetworkPlatform:
+    :path: Modules/NetworkPlatform
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Domain: c52db5daed2d7506573de3378e05bff0dcfbf3d8
+  ListPost: 923f5795004707398bead75a35efdfbb6b8f61f1
+  NetworkPlatform: d1f0013ae6015b85de884f316c636098de0a42f9
+  QueryKit: 60dae8ff75d5805f9c703c68c0ef4294c9dd7de6
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 1f0163d68fc49a33631dc21c789f7b7bf303da5f
+
+COCOAPODS: 1.11.2

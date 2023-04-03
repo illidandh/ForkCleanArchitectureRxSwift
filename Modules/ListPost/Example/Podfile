@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ListPost_Example' do
+  pod 'ListPost', :path => '../'
+  pod 'Domain', :path => '../../Domain'
+  pod 'RxSwift', '~> 6.5.0'
+  pod 'RxCocoa'
+  
+end

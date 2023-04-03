@@ -1,0 +1,42 @@
+PODS:
+  - Domain (0.1.0):
+    - RxSwift
+  - ListPost (0.1.0):
+    - Domain
+    - RxCocoa
+    - RxSwift
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Domain (from `../../Domain`)
+  - ListPost (from `../`)
+  - RxCocoa
+  - RxSwift (~> 6.5.0)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Domain:
+    :path: "../../Domain"
+  ListPost:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Domain: c52db5daed2d7506573de3378e05bff0dcfbf3d8
+  ListPost: 923f5795004707398bead75a35efdfbb6b8f61f1
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 2cd2fd4f71b280fdec865a9cb4e0bbd615d5a70c
+
+COCOAPODS: 1.11.2

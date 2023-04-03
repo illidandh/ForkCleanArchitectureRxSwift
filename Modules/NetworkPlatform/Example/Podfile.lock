@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Domain (0.1.0):
+    - RxSwift
+  - NetworkPlatform (0.1.0):
+    - Alamofire
+    - Domain
+    - RxAlamofire
+    - RxSwift
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Domain (from `../../Domain`)
+  - NetworkPlatform (from `../`)
+  - RxAlamofire
+  - RxSwift (~> 6.5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxAlamofire
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Domain:
+    :path: "../../Domain"
+  NetworkPlatform:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Domain: c52db5daed2d7506573de3378e05bff0dcfbf3d8
+  NetworkPlatform: d1f0013ae6015b85de884f316c636098de0a42f9
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 8067359c2b8c38e265421b0c3b69b156df229b25
+
+COCOAPODS: 1.11.2

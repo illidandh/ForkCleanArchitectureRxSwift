@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NetworkPlatform_Example' do
+  
+  pod 'NetworkPlatform', :path => '../'
+  pod 'Domain', :path => '../../Domain'
+  pod 'RxSwift', '~> 6.5.0'
+  pod 'Alamofire'
+  pod 'RxAlamofire'
+  
+end
